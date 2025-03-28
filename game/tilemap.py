@@ -46,8 +46,8 @@ class Tilemap:
         f.close()
 
         self.tilemap = map_data['tilemap']
-        self.tile_size = map_data['tile_size']
-        self.offgrid_tiles = map_data['offgrid']
+        #self.tile_size = map_data['tile_size']
+        #self.offgrid_tiles = map_data['offgrid']
 
     def physics_rects_around(self, pos):
         rects = []

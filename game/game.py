@@ -19,7 +19,7 @@ class Game:
         }
 
         self.tilemap = Tilemap(self, tile_size=16)
-        #self.tilemap.load('map.json')
+        self.tilemap.load('map.json')
 
     def run(self):
         """Main game loop."""
@@ -50,7 +50,7 @@ class Game:
         """Render the game elements."""
         self.screen.fill((138, 138, 138))
 
-        #self.tilemap.render(self.screen)
+        self.tilemap.render(self.screen)
 
         self.player.draw_player(self.screen)
 
