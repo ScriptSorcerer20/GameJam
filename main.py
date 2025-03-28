@@ -13,7 +13,7 @@ def main():
     clock = pygame.time.Clock()
 
     pygame.display.set_caption("Inner Echo")
-    #icon_img = pygame.image.load('assets/icon.png')
+    #icon_img = pygame.image.load('data/icon.png')
     #pygame.display.set_icon(icon_img)
 
     #start_menu = StartMenu(screen, clock)
